@@ -1,0 +1,4020 @@
+@media screen and (min-width: 1200px) {
+  @keyframes robot {
+    0% {
+      left: 20%;
+      top: 350px; }
+    100% {
+      left: 20%;
+      top: 355px; } }
+  @keyframes hat {
+    0% {
+      transform: skewx(10deg); }
+    50% {
+      transform: skewx(0deg); }
+    100% {
+      transform: skewx(20deg); } }
+  @keyframes trophy {
+    0% {
+      top: 35px;
+      transform: rotatez(-45deg);
+      left: 454px; }
+    50% {
+      left: 448px;
+      top: 40px; }
+    100% {
+      transform: rotateZ(3deg);
+      left: 450px;
+      top: 50px; } }
+  @keyframes taj {
+    0% {
+      transform: rotatez(0deg); }
+    50% {
+      margin-top: 5px; }
+    100% {
+      transform: rotatez(20deg);
+      margin-top: 8px; } }
+  @keyframes potion {
+    0% {
+      transform: rotatez(-50deg); }
+    50% {
+      left: 8px; }
+    100% {
+      transform: rotatez(50deg); } }
+  @keyframes turnip {
+    0% {
+      left: 2px; }
+    50% {
+      left: 3px; }
+    100% {
+      left: 4px;
+      transform: rotatez(8deg); } }
+  @keyframes setare {
+    0% {
+      left: 1px;
+      top: 2px; }
+    50% {
+      left: 4px;
+      transform: rotatez(20deg);
+      top: 5px; }
+    100% {
+      left: 8px;
+      top: 10px;
+      transform: rotatez(25deg); } }
+  @keyframes star1 {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 100%; } }
+  div.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    opacity: 0.99; }
+    div.wrapper > div.menu {
+      width: 100%;
+      height: 80px;
+      display: inline-block;
+      vertical-align: top; }
+      div.wrapper > div.menu > div.logo {
+        display: inline-block;
+        vertical-align: top; }
+        div.wrapper > div.menu > div.logo > img {
+          margin-left: 62px;
+          margin-top: 22px;
+          display: inline-block;
+          vertical-align: top; }
+      div.wrapper > div.menu div.main-menu {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 100px;
+        height: 100%; }
+        div.wrapper > div.menu div.main-menu > ul {
+          width: 100%;
+          height: 100%; }
+          div.wrapper > div.menu div.main-menu > ul > li {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 30px;
+            line-height: 80px; }
+            div.wrapper > div.menu div.main-menu > ul > li > a {
+              color: white;
+              font-size: 16.5px; }
+              div.wrapper > div.menu div.main-menu > ul > li > a:hover {
+                border-bottom: 1.5px solid white; }
+      div.wrapper > div.menu > div.login {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 14%;
+        margin-top: 2%; }
+        div.wrapper > div.menu > div.login > a {
+          color: black;
+          font-size: 14px;
+          background-color: white;
+          padding: 10px;
+          border-radius: 20px; }
+          div.wrapper > div.menu > div.login > a:hover {
+            color: #505695; }
+      div.wrapper > div.menu > div.adidas {
+        display: none; }
+    div.wrapper > div.page1 {
+      width: 100%;
+      height: 679px; }
+      div.wrapper > div.page1 > div.star0 > img {
+        width: 900px;
+        height: 423px;
+        top: 0;
+        z-index: -1;
+        position: absolute;
+        left: 100px; }
+      div.wrapper > div.page1 > div.cheshmak > img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        animation-name: star1;
+        animation-duration: 1500ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.ntext {
+        display: none; }
+      div.wrapper > div.page1 > div.text {
+        margin-left: 100px;
+        margin-top: 100px;
+        display: inline-block;
+        vertical-align: top; }
+        div.wrapper > div.page1 > div.text > p:nth-of-type(1) {
+          color: white;
+          font-size: 45px;
+          font-weight: 900;
+          line-height: 55px;
+          transition: 500ms; }
+        div.wrapper > div.page1 > div.text > p:nth-of-type(2) {
+          color: white;
+          margin-top: 10px;
+          font-size: 20px;
+          word-spacing: 5px;
+          line-height: 28px; }
+      div.wrapper > div.page1 > div.manitors > div.manitorbi > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.manitor > img {
+        width: 736px;
+        height: 480px;
+        vertical-align: top;
+        position: absolute;
+        top: 1.7%;
+        left: 37.5%;
+        background-color: #474c6200; }
+      div.wrapper > div.page1 > div.manitors > div.robot > img {
+        width: 57.59px;
+        height: 64.64px;
+        position: absolute;
+        margin-left: 25%;
+        margin-top: 14%;
+        animation-name: robot;
+        animation-duration: 1000ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.manitors > div.abi > img {
+        width: 176px;
+        height: 137.92px;
+        left: 60%;
+        top: 473px;
+        position: absolute; }
+      div.wrapper > div.page1 > div.manitors > div.hat > img {
+        width: 176px;
+        height: 32px;
+        position: absolute;
+        vertical-align: top;
+        left: 61%;
+        top: 435px;
+        animation-name: hat;
+        animation-duration: 2500ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.star > img {
+        top: 0px;
+        left: 50px;
+        height: 421px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page1 > div.img1 > div.trophy > img {
+        width: 104px;
+        height: 104px;
+        z-index: -1;
+        position: absolute;
+        top: 33px;
+        left: 458px;
+        animation-name: trophy;
+        animation-duration: 6000ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.taj {
+        top: 50px;
+        left: 160px;
+        position: absolute; }
+        div.wrapper > div.page1 > div.img1 > div.taj > img {
+          width: 160px;
+          height: 149px;
+          animation-name: taj;
+          animation-duration: 6000ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.potion {
+        position: absolute;
+        left: 1%;
+        top: 1.5%; }
+        div.wrapper > div.page1 > div.img1 > div.potion > img {
+          width: 112px;
+          height: 119px;
+          animation-name: potion;
+          animation-duration: 6500ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          background-color: #c5787800; }
+      div.wrapper > div.page1 > div.img1 > div.turnip {
+        position: absolute;
+        top: 0;
+        margin-left: 75%; }
+        div.wrapper > div.page1 > div.img1 > div.turnip > img {
+          width: 72px;
+          height: 91px;
+          animation-name: turnip;
+          animation-duration: 1500ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          filter: blur(5px); }
+      div.wrapper > div.page1 > div.img1 > div.setare {
+        position: absolute;
+        left: 88%;
+        top: 1.5%; }
+        div.wrapper > div.page1 > div.img1 > div.setare > img {
+          width: 53px;
+          height: 53px;
+          animation-name: setare;
+          animation-duration: 6000ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate; }
+      div.wrapper > div.page1 > div.download {
+        margin-top: 200px;
+        margin-left: 25%; }
+        div.wrapper > div.page1 > div.download > div.downloads {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1) {
+            color: black;
+            background-color: white;
+            padding: 18px;
+            border-radius: 30px;
+            font-size: 19px;
+            padding-right: 30px;
+            transition: 300ms; }
+            div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1):hover {
+              color: #5864ef; }
+            div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1) > i {
+              margin-right: 10px;
+              padding-left: 20px; }
+          div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(2) {
+            display: none; }
+        div.wrapper > div.page1 > div.download > div.open {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page1 > div.download > div.open > a {
+            color: #ffffff;
+            background-color: #171cb9;
+            padding: 18px;
+            border-radius: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: 19px;
+            margin-left: 20px; }
+    div.wrapper > div.page2 {
+      width: 100%;
+      height: 761.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page2 > div.chat {
+        width: 94%;
+        height: 550px;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        margin-left: 2.5%;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page2 > div.chat > div.gif > img {
+          width: 120px;
+          height: 85px;
+          position: absolute;
+          margin-left: 75%;
+          transform: translatey(-90px);
+          z-index: -10; }
+        div.wrapper > div.page2 > div.chat > div.text1 {
+          display: inline-block;
+          margin-left: 55px;
+          margin-top: 105px; }
+          div.wrapper > div.page2 > div.chat > div.text1 > p:nth-of-type(1) {
+            color: white;
+            font-size: 35px;
+            font-weight: 900;
+            line-height: 40px;
+            display: inline-block;
+            vertical-align: top; }
+          div.wrapper > div.page2 > div.chat > div.text1 p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 22px;
+            word-spacing: 2px;
+            line-height: 36px; }
+        div.wrapper > div.page2 > div.chat > div.text1n > p:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page2 > div.chat > div.text1n > p:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page2 > div.chat > div.vid {
+          display: inline-block;
+          vertical-align: top;
+          width: 60%; }
+          div.wrapper > div.page2 > div.chat > div.vid > video {
+            object-fit: cover;
+            width: 100%;
+            height: 514px;
+            border-radius: 50px; }
+      div.wrapper > div.page2 div.egg > img {
+        top: 300px;
+        left: -180px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page2 div.star2 > img {
+        width: 100%;
+        z-index: -1;
+        position: absolute; }
+    div.wrapper > div.page3 {
+      width: 100%;
+      height: 761.06px;
+      margin-top: 35px;
+      position: relative; }
+      div.wrapper > div.page3 > div.stream {
+        width: 95%;
+        height: 570px;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        margin-left: 2.5%;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page3 > div.stream > div.stream-text {
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 60px;
+          margin-left: 45px;
+          top: 0; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(1) {
+            color: white;
+            font-size: 38px;
+            font-weight: 900;
+            line-height: 40px; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 22px;
+            word-spacing: 3px;
+            line-height: 35px; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(3) {
+            display: none; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(4) {
+            display: none; }
+        div.wrapper > div.page3 > div.stream > div.vid2 {
+          display: inline-block;
+          margin-left: 3%;
+          width: 60%; }
+          div.wrapper > div.page3 > div.stream > div.vid2 > video {
+            object-fit: cover;
+            width: 100%;
+            height: 534px;
+            border-radius: 50px;
+            margin-left: 2%; }
+      div.wrapper > div.page3 > div.javaher img {
+        width: 224px;
+        height: 224px;
+        position: absolute;
+        left: 110px;
+        top: 600px; }
+      div.wrapper > div.page3 > div.star3 > img {
+        top: 200px;
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.page4 {
+      width: 94%;
+      height: 761.06px;
+      padding-top: 112px;
+      position: relative; }
+      div.wrapper > div.page4 > div.main-chat {
+        width: 100%;
+        height: 550px;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        margin-left: 2.5%;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page4 > div.main-chat > div.textt {
+          display: inline-block;
+          margin-left: 55px;
+          margin-top: 87px; }
+          div.wrapper > div.page4 > div.main-chat > div.textt > p:nth-of-type(1) {
+            color: #fffefe;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 40px;
+            display: inline-block;
+            vertical-align: top; }
+          div.wrapper > div.page4 > div.main-chat > div.textt p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 20px;
+            word-spacing: 2px;
+            line-height: 33px; }
+        div.wrapper > div.page4 > div.main-chat > div.texttn > p:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page4 > div.main-chat > div.texttn > p:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page4 > div.main-chat > div.vidd {
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 1%;
+          width: 60%; }
+          div.wrapper > div.page4 > div.main-chat > div.vidd > video {
+            object-fit: cover;
+            width: 100%;
+            height: 514px;
+            border-radius: 50px; }
+        div.wrapper > div.page4 > div.main-chat > div.box {
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 50%;
+          transform: translatey(-155px);
+          position: absolute; }
+          div.wrapper > div.page4 > div.main-chat > div.box > img {
+            width: 300px;
+            height: 300px; }
+      div.wrapper > div.page4 > div.bat > img {
+        width: 180px;
+        height: 180px;
+        margin-left: 930px; }
+      div.wrapper > div.page4 > div.star4 > img {
+        width: 100%;
+        position: absolute;
+        top: 615px;
+        z-index: -1; }
+    div.wrapper > div.banner {
+      margin-top: 110px;
+      width: 100%;
+      height: 140px;
+      background-image: linear-gradient(180deg, #4356fd, #6085ff);
+      display: flex;
+      align-items: center; }
+      div.wrapper > div.banner > ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 70px; }
+        div.wrapper > div.banner > ul > li {
+          font-size: 60px;
+          color: white;
+          font-weight: 800; }
+    div.wrapper > div.page5 {
+      margin-top: 220px;
+      width: 100%;
+      height: 761.06px;
+      padding-top: 15px;
+      position: relative; }
+      div.wrapper > div.page5 > div.call {
+        width: 94%;
+        height: 570px;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        margin-left: 2.5%;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page5 > div.call > div.call-text {
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 95px;
+          margin-left: 38px; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(1) {
+            color: white;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 40px; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(2) {
+            color: white;
+            margin-top: 20px;
+            font-size: 22px;
+            word-spacing: 3px;
+            line-height: 35px; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(3) {
+            display: none; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(4) {
+            display: none; }
+        div.wrapper > div.page5 > div.call > div.vidc {
+          display: inline-block;
+          margin-left: 1%;
+          width: 60%; }
+          div.wrapper > div.page5 > div.call > div.vidc > video {
+            object-fit: cover;
+            width: 100%;
+            height: 534px;
+            border-radius: 50px;
+            margin-left: 2%; }
+      div.wrapper > div.page5 > div.coin img {
+        width: 139px;
+        height: 139px;
+        position: absolute;
+        top: 670px;
+        left: 100px; }
+      div.wrapper > div.page5 div.star5 img {
+        width: 100%;
+        position: absolute;
+        top: 450px;
+        z-index: -1; }
+    div.wrapper > div.page6 {
+      width: 100%;
+      height: 761.06px;
+      margin-top: 140px;
+      position: relative; }
+      div.wrapper > div.page6 > div.share-screen {
+        width: 94%;
+        height: 550px;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        margin-left: 2.5%;
+        padding: 0px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page6 > div.share-screen > div.img {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(1) {
+            width: 201px;
+            height: 142px;
+            position: absolute;
+            transform: translateY(-123px);
+            margin-left: 680px; }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(2) {
+            width: 221px;
+            height: 341px;
+            position: absolute;
+            transform: translateY(-155px);
+            margin-left: 840px;
+            z-index: -1; }
+        div.wrapper > div.page6 > div.share-screen > div.text-share {
+          display: inline-block;
+          margin-left: 43px;
+          margin-top: 100px; }
+          div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(1) {
+            color: white;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 40px; }
+          div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 20px;
+            word-spacing: 2px;
+            line-height: 38px; }
+        div.wrapper > div.page6 > div.share-screen div.text-sharen > p:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page6 > div.share-screen div.text-sharen > p:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page6 > div.share-screen > div.video-share {
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 1%;
+          width: 60%; }
+          div.wrapper > div.page6 > div.share-screen > div.video-share > video {
+            object-fit: cover;
+            width: 100%;
+            height: 514px;
+            border-radius: 50px; }
+      div.wrapper > div.page6 div.pen img {
+        width: 224px;
+        height: 278.93;
+        position: absolute;
+        top: 590px;
+        left: 900px; }
+      div.wrapper > div.page6 div.star6 > img {
+        width: 100%;
+        background-color: #0739e000;
+        position: absolute;
+        z-index: -1;
+        top: 200px; }
+    div.wrapper > div.page7 {
+      margin-top: 100px;
+      width: 100%;
+      height: 761.06px;
+      padding-top: 23px;
+      position: relative; }
+      div.wrapper > div.page7 > div.format {
+        width: 93%;
+        height: 550px;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        margin-left: 3%;
+        padding: 2px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page7 > div.format > div.format-text {
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 95px;
+          margin-left: 45px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(1) {
+            color: white;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 45px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 20px;
+            word-spacing: 3px;
+            line-height: 35px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(3) {
+            display: none; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(4) {
+            display: none; }
+        div.wrapper > div.page7 > div.format > div.vidf {
+          display: inline-block;
+          margin-left: 2.2%;
+          width: 56%; }
+          div.wrapper > div.page7 > div.format > div.vidf > video {
+            object-fit: cover;
+            width: 100%;
+            height: 524px;
+            border-radius: 50px;
+            margin-left: 2%;
+            margin-top: 1%; }
+      div.wrapper > div.page7 div.cube img {
+        position: absolute;
+        top: 450px;
+        left: 280px;
+        z-index: -1; }
+      div.wrapper > div.page7 div.star7 img {
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.download-link {
+      margin-top: 100px;
+      height: 200px; }
+      div.wrapper > div.download-link > p {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        font-weight: 900;
+        line-height: 60px; }
+      div.wrapper > div.download-link > a {
+        position: absolute;
+        color: white;
+        background-color: #5865f2;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: 19px;
+        padding-right: 50px;
+        margin-left: 484px;
+        transition: 200ms;
+        margin-top: 50px; }
+        div.wrapper > div.download-link > a > i {
+          padding-left: 20px;
+          padding-right: 10px; }
+        div.wrapper > div.download-link > a:hover {
+          background-color: #8891f2;
+          margin-top: 48px; }
+    div.wrapper > div.discord {
+      margin-top: 50px; }
+      div.wrapper > div.discord > img:nth-of-type(1) {
+        width: 100%;
+        height: 313px; }
+      div.wrapper > div.discord > img:nth-of-type(2) {
+        width: 162px;
+        height: 205px;
+        position: absolute;
+        left: 505px;
+        margin-top: 112px; }
+      div.wrapper > div.discord > img:nth-of-type(3) {
+        width: 73px;
+        height: 49px;
+        position: absolute;
+        left: 505px;
+        margin-top: 45px;
+        margin-left: 52px; }
+      div.wrapper > div.discord > img:nth-of-type(4) {
+        width: 84.09px;
+        height: 60.54px;
+        position: absolute;
+        left: 962px;
+        margin-top: 30px; }
+      div.wrapper > div.discord > img:nth-of-type(5) {
+        width: 55.71px;
+        height: 33.21px;
+        position: absolute;
+        left: 975px;
+        margin-top: 97px; }
+    div.wrapper > footer {
+      width: 100%;
+      height: 669.33px;
+      background-color: #4a468a;
+      border-top: 5px solid #5e54a1; }
+      div.wrapper > footer div.social-media {
+        display: inline-block; }
+        div.wrapper > footer div.social-media > div.lan {
+          width: 121px;
+          margin-left: 64px;
+          margin-top: 99px; }
+          div.wrapper > footer div.social-media > div.lan > img {
+            width: 24px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: top; }
+          div.wrapper > footer div.social-media > div.lan > p {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14px;
+            color: white; }
+        div.wrapper > footer div.social-media > div.icons {
+          margin-left: 45px;
+          margin-top: 45px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer div.social-media > div.icons > i {
+            color: white;
+            margin-left: 21px;
+            font-size: 23px; }
+      div.wrapper > footer > div.footere {
+        display: inline-block;
+        vertical-align: top; }
+        div.wrapper > footer > div.footere > div.product {
+          margin-left: 170px;
+          margin-top: 75px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.product > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.product > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.product > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.product > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.product > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Company {
+          margin-left: 30px;
+          margin-top: 75px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Company > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Company > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Company > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Company > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Company > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Resources {
+          margin-left: 120px;
+          margin-top: 75px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Resources > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Resources > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Resources > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Resources > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Resources > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Policies {
+          margin-left: 33px;
+          margin-top: 75px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Policies > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Policies > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Policies > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Policies > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Policies > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+      div.wrapper > footer div.sing-in {
+        width: 90%;
+        height: 73.33;
+        margin-top: 40px;
+        margin-left: 60px;
+        padding-top: 30px;
+        border-top: 1px solid white; }
+        div.wrapper > footer div.sing-in > a:nth-of-type(1) {
+          color: white;
+          background-color: #5865f2;
+          padding: 9px 13px;
+          border-radius: 50px;
+          margin-top: 0;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 930px;
+          font-size: 13px; }
+          div.wrapper > footer div.sing-in > a:nth-of-type(1):hover {
+            background-color: #7289da; }
+        div.wrapper > footer div.sing-in > a:nth-of-type(2) {
+          display: none; } }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  @keyframes robot {
+    0% {
+      left: 20%;
+      top: 350px; }
+    100% {
+      left: 20%;
+      top: 355px; } }
+  @keyframes hat {
+    0% {
+      transform: skewx(10deg); }
+    50% {
+      transform: skewx(0deg); }
+    100% {
+      transform: skewx(20deg); } }
+  @keyframes trophy {
+    0% {
+      top: 35px;
+      transform: rotatez(-45deg);
+      left: 454px; }
+    50% {
+      left: 448px;
+      top: 40px; }
+    100% {
+      transform: rotateZ(3deg);
+      left: 450px;
+      top: 50px; } }
+  @keyframes taj {
+    0% {
+      transform: rotatez(0deg); }
+    50% {
+      margin-top: 5px; }
+    100% {
+      transform: rotatez(20deg);
+      margin-top: 8px; } }
+  @keyframes potion {
+    0% {
+      transform: rotatez(-50deg); }
+    50% {
+      left: 8px; }
+    100% {
+      transform: rotatez(50deg); } }
+  @keyframes turnip {
+    0% {
+      left: 2px; }
+    50% {
+      left: 3px; }
+    100% {
+      left: 4px;
+      transform: rotatez(8deg); } }
+  @keyframes setare {
+    0% {
+      left: 1px;
+      top: 2px; }
+    50% {
+      left: 4px;
+      transform: rotatez(20deg);
+      top: 5px; }
+    100% {
+      left: 8px;
+      top: 10px;
+      transform: rotatez(25deg); } }
+  @keyframes star1 {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 100%; } }
+  div.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    opacity: 0.99; }
+    div.wrapper > div.menu {
+      width: 100%;
+      height: 80px;
+      display: inline-block;
+      vertical-align: top; }
+      div.wrapper > div.menu > div.logo {
+        display: inline-block;
+        vertical-align: top; }
+        div.wrapper > div.menu > div.logo > img {
+          margin-left: 62px;
+          margin-top: 22px;
+          display: inline-block;
+          vertical-align: top; }
+      div.wrapper > div.menu div.main-menu {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5%;
+        height: 100%; }
+        div.wrapper > div.menu div.main-menu > ul {
+          width: 100%;
+          height: 100%; }
+          div.wrapper > div.menu div.main-menu > ul > li {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 30px;
+            line-height: 80px; }
+            div.wrapper > div.menu div.main-menu > ul > li > a {
+              color: white;
+              font-size: 15px; }
+              div.wrapper > div.menu div.main-menu > ul > li > a:hover {
+                border-bottom: 1.5px solid white; }
+      div.wrapper > div.menu > div.login {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10.8%;
+        margin-top: 2.5%; }
+        div.wrapper > div.menu > div.login > a {
+          color: black;
+          font-size: 14px;
+          background-color: white;
+          padding: 10px;
+          border-radius: 20px; }
+          div.wrapper > div.menu > div.login > a:hover {
+            color: #505695; }
+      div.wrapper > div.menu > div.adidas {
+        display: none; }
+    div.wrapper > div.page1 {
+      width: 100%;
+      height: 679px; }
+      div.wrapper > div.page1 > div.cheshmak > img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        animation-name: star1;
+        animation-duration: 1500ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.star0 > img {
+        width: 733px;
+        height: 423px;
+        top: 0;
+        z-index: -1;
+        position: absolute; }
+      div.wrapper > div.page1 > div.ntext {
+        display: none; }
+      div.wrapper > div.page1 > div.text {
+        margin-left: 10%;
+        margin-top: 110px;
+        display: inline-block;
+        vertical-align: top; }
+        div.wrapper > div.page1 > div.text > p:nth-of-type(1) {
+          color: white;
+          font-size: 35px;
+          font-weight: 900;
+          line-height: 42px; }
+        div.wrapper > div.page1 > div.text > p:nth-of-type(2) {
+          color: white;
+          margin-top: 10px;
+          font-size: 15px;
+          word-spacing: 5px;
+          line-height: 28px; }
+      div.wrapper > div.page1 > div.manitors > div.manitorbi > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.manitor > img {
+        width: 580px;
+        height: 401px;
+        vertical-align: top;
+        position: absolute;
+        top: 2%;
+        left: 40%; }
+      div.wrapper > div.page1 > div.manitors > div.robot > img {
+        width: 40px;
+        height: 44.89px;
+        position: absolute;
+        margin-left: 28.5%;
+        margin-top: 10%;
+        animation-name: robot;
+        animation-duration: 1000ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.manitors > div.abi > img {
+        width: 126px;
+        height: 98.74px;
+        left: 63.5%;
+        top: 428px;
+        position: absolute; }
+      div.wrapper > div.page1 > div.manitors > div.hat > img {
+        width: 126px;
+        height: 23px;
+        position: absolute;
+        vertical-align: top;
+        left: 63.8%;
+        top: 405px;
+        animation-name: hat;
+        animation-duration: 2500ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.star > img {
+        top: 0px;
+        left: 50px;
+        height: 421px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page1 > div.img1 > div.trophy > img {
+        width: 104px;
+        height: 104px;
+        z-index: -1;
+        position: absolute;
+        top: 33px;
+        left: 458px;
+        animation-name: trophy;
+        animation-duration: 6000ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.taj {
+        top: 50px;
+        left: 160px;
+        position: absolute; }
+        div.wrapper > div.page1 > div.img1 > div.taj > img {
+          width: 160px;
+          height: 149px;
+          animation-name: taj;
+          animation-duration: 6000ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.potion {
+        position: absolute;
+        left: 1%;
+        top: 3%; }
+        div.wrapper > div.page1 > div.img1 > div.potion > img {
+          width: 89px;
+          height: 101px;
+          animation-name: potion;
+          animation-duration: 6500ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.turnip {
+        position: absolute;
+        top: 0;
+        left: 890px;
+        z-index: -1; }
+        div.wrapper > div.page1 > div.img1 > div.turnip > img {
+          width: 72px;
+          height: 91px;
+          animation-name: turnip;
+          animation-duration: 1500ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          filter: blur(5px); }
+      div.wrapper > div.page1 > div.img1 > div.setare {
+        position: absolute;
+        left: 88%;
+        top: 2%; }
+        div.wrapper > div.page1 > div.img1 > div.setare > img {
+          width: 53px;
+          height: 53px;
+          animation-name: setare;
+          animation-duration: 6000ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate; }
+      div.wrapper > div.page1 > div.download {
+        margin-top: 150px;
+        margin-left: 25%; }
+        div.wrapper > div.page1 > div.download > div.downloads {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1) {
+            color: black;
+            background-color: white;
+            padding: 18px;
+            border-radius: 30px;
+            font-size: 19px;
+            padding-right: 30px;
+            transition: 300ms; }
+            div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1):hover {
+              color: #5864ef; }
+            div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1) > i {
+              margin-right: 10px;
+              padding-left: 20px; }
+          div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(2) {
+            display: none; }
+        div.wrapper > div.page1 > div.download > div.open {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page1 > div.download > div.open > a {
+            color: #ffffff;
+            background-color: #171cb9;
+            padding: 18px;
+            border-radius: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: 19px;
+            margin-left: 20px; }
+    div.wrapper > div.page2 {
+      width: 100%;
+      height: 671.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page2 > div.chat {
+        width: 900px;
+        height: 440px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page2 > div.chat > div.gif > img {
+          width: 120px;
+          height: 85px;
+          position: absolute;
+          transform: translate(550%, -90px);
+          z-index: -10; }
+        div.wrapper > div.page2 > div.chat > div.text1 {
+          width: 38%;
+          display: inline-block;
+          padding-left: 40px;
+          margin-top: 50px; }
+          div.wrapper > div.page2 > div.chat > div.text1 > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page2 > div.chat > div.text1 p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 17px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page2 > div.chat > div.text1n {
+          display: none; }
+        div.wrapper > div.page2 > div.chat > div.vid {
+          width: 60%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page2 > div.chat > div.vid > video {
+            object-fit: cover;
+            width: 506px;
+            height: 410px;
+            border-radius: 50px; }
+      div.wrapper > div.page2 div.egg > img {
+        top: 300px;
+        left: -180px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page2 div.star2 > img {
+        width: 100%;
+        z-index: -1;
+        position: absolute; }
+    div.wrapper > div.page3 {
+      width: 100%;
+      height: 701.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page3 > div.stream {
+        width: 900px;
+        height: 440px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page3 > div.stream > div.stream-text {
+          width: 38%;
+          display: inline-block;
+          padding-left: 10px;
+          margin-top: 50px; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 17px;
+            word-spacing: 2px;
+            line-height: 28px; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(3) {
+            display: none; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(4) {
+            display: none; }
+        div.wrapper > div.page3 > div.stream > div.vid2 {
+          width: 60%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page3 > div.stream > div.vid2 > video {
+            object-fit: cover;
+            width: 506px;
+            height: 410px;
+            border-radius: 50px;
+            margin-left: 5%; }
+      div.wrapper > div.page3 > div.javaher img {
+        width: 224px;
+        height: 224px;
+        position: absolute;
+        left: 110px;
+        top: 600px; }
+      div.wrapper > div.page3 > div.star3 > img {
+        top: 200px;
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.page4 {
+      width: 100%;
+      height: 671.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page4 > div.main-chat {
+        width: 900px;
+        height: 440px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page4 > div.main-chat > div.textt {
+          width: 38%;
+          display: inline-block;
+          padding-left: 40px;
+          margin-top: 50px; }
+          div.wrapper > div.page4 > div.main-chat > div.textt > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page4 > div.main-chat > div.textt p:nth-of-type(2) {
+            color: white;
+            margin-top: 15px;
+            font-size: 17px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page4 > div.main-chat > div.texttn {
+          display: none; }
+        div.wrapper > div.page4 > div.main-chat > div.vidd {
+          width: 60%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page4 > div.main-chat > div.vidd > video {
+            object-fit: cover;
+            width: 506px;
+            height: 410px;
+            border-radius: 50px; }
+        div.wrapper > div.page4 > div.main-chat > div.box {
+          display: inline-block;
+          vertical-align: top;
+          transform: translate(292.5%, -130px);
+          position: absolute;
+          background-color: #6f739400; }
+          div.wrapper > div.page4 > div.main-chat > div.box > img {
+            width: 235px;
+            height: 252.39px; }
+      div.wrapper > div.page4 > div.bat {
+        margin-top: 3%; }
+        div.wrapper > div.page4 > div.bat > img {
+          width: 134px;
+          height: 134px;
+          margin-left: 73%; }
+      div.wrapper > div.page4 > div.star4 > img {
+        width: 100%;
+        position: absolute;
+        top: 615px;
+        z-index: -1; }
+    div.wrapper > div.banner {
+      width: 100%;
+      height: 140px;
+      background-image: linear-gradient(180deg, #4356fd, #6085ff);
+      display: flex;
+      align-items: center; }
+      div.wrapper > div.banner > ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 55px; }
+        div.wrapper > div.banner > ul > li {
+          font-size: 55px;
+          color: white;
+          font-weight: 800; }
+    div.wrapper > div.page5 {
+      width: 100%;
+      height: 701.06px;
+      padding-top: 10px;
+      margin-top: 145px;
+      position: relative; }
+      div.wrapper > div.page5 > div.call {
+        width: 900px;
+        height: 440px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page5 > div.call > div.call-text {
+          width: 38%;
+          display: inline-block;
+          padding-left: 4px;
+          margin-top: 80px; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 17px;
+            word-spacing: 2px;
+            line-height: 28px; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(3) {
+            display: none; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(4) {
+            display: none; }
+        div.wrapper > div.page5 > div.call > div.vidc {
+          width: 60%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page5 > div.call > div.vidc > video {
+            object-fit: cover;
+            width: 506px;
+            height: 410px;
+            border-radius: 50px;
+            margin-left: 25px; }
+      div.wrapper > div.page5 > div.coin img {
+        width: 139px;
+        height: 139px;
+        position: absolute;
+        top: 550px;
+        left: 100px; }
+      div.wrapper > div.page5 div.star5 img {
+        width: 100%;
+        position: absolute;
+        top: 450px;
+        z-index: -1; }
+    div.wrapper > div.page6 {
+      width: 100%;
+      height: 600.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page6 > div.share-screen {
+        width: 900px;
+        height: 440px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page6 > div.share-screen > div.img {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(1) {
+            width: 143px;
+            height: 102px;
+            position: absolute;
+            transform: translate(380%, -100px); }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(2) {
+            width: 149px;
+            height: 229px;
+            position: absolute;
+            transform: translate(450%, -120px);
+            z-index: -1; }
+        div.wrapper > div.page6 > div.share-screen > div.text-share {
+          width: 38%;
+          display: inline-block;
+          padding-left: 40px;
+          margin-top: 59px; }
+          div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(2) {
+            color: white;
+            margin-top: 15px;
+            font-size: 17px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page6 > div.share-screen div.text-sharen {
+          display: none; }
+        div.wrapper > div.page6 > div.share-screen > div.video-share {
+          width: 60%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page6 > div.share-screen > div.video-share > video {
+            object-fit: cover;
+            width: 506px;
+            height: 410px;
+            border-radius: 50px; }
+      div.wrapper > div.page6 div.pen img {
+        width: 160px;
+        height: 199.23;
+        position: absolute;
+        top: 450px;
+        left: 700px; }
+      div.wrapper > div.page6 div.star6 > img {
+        width: 100%;
+        background-color: #7284af00;
+        position: absolute;
+        z-index: -1;
+        top: 200px; }
+    div.wrapper > div.page7 {
+      width: 100%;
+      height: 450.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page7 > div.format {
+        width: 900px;
+        height: 440px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.351);
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116); }
+        div.wrapper > div.page7 > div.format > div.format-text {
+          width: 38%;
+          display: inline-block;
+          padding-left: 40px;
+          margin-top: 50px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 25px;
+            font-weight: 900;
+            line-height: 40px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 17px;
+            word-spacing: 2px;
+            line-height: 28px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(3) {
+            display: none; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(4) {
+            display: none; }
+        div.wrapper > div.page7 > div.format > div.vidf {
+          width: 60%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page7 > div.format > div.vidf > video {
+            object-fit: cover;
+            width: 506px;
+            height: 410px;
+            border-radius: 50px;
+            margin-left: 5%; }
+      div.wrapper > div.page7 div.cube img {
+        width: 224px;
+        height: 224px;
+        position: absolute;
+        top: 340px;
+        left: 130px;
+        z-index: -1; }
+      div.wrapper > div.page7 div.star7 img {
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.download-link {
+      margin-top: 100px; }
+      div.wrapper > div.download-link > p {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        font-weight: 900;
+        line-height: 50px; }
+      div.wrapper > div.download-link > a {
+        color: white;
+        background-color: #5865f2;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: 19px;
+        padding-right: 50px;
+        margin-left: 35%; }
+        div.wrapper > div.download-link > a > i {
+          margin-right: 10px;
+          padding-left: 25px;
+          margin-top: 65px; }
+    div.wrapper > div.discord {
+      margin-top: 50px; }
+      div.wrapper > div.discord > img:nth-of-type(1) {
+        width: 100%;
+        height: 313px; }
+      div.wrapper > div.discord > img:nth-of-type(2) {
+        width: 151px;
+        height: 192px;
+        position: absolute;
+        left: 40%;
+        margin-top: 125px; }
+      div.wrapper > div.discord > img:nth-of-type(3) {
+        width: 68px;
+        height: 45px;
+        position: absolute;
+        left: 40%;
+        margin-top: 55px;
+        margin-left: 52px; }
+      div.wrapper > div.discord > img:nth-of-type(4) {
+        width: 79px;
+        height: 57px;
+        position: absolute;
+        left: 76.5%;
+        margin-top: 70px; }
+      div.wrapper > div.discord > img:nth-of-type(5) {
+        width: 52px;
+        height: 31px;
+        position: absolute;
+        left: 77.8%;
+        margin-top: 130px; }
+    div.wrapper > footer {
+      width: 100%;
+      height: 669.33px;
+      background-color: #4a468a;
+      border-top: 5px solid #5e54a1; }
+      div.wrapper > footer div.social-media {
+        display: inline-block; }
+        div.wrapper > footer div.social-media > div.lan {
+          width: 121px;
+          margin-left: 64px;
+          margin-top: 99px; }
+          div.wrapper > footer div.social-media > div.lan > img {
+            width: 24px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: top; }
+          div.wrapper > footer div.social-media > div.lan > p {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14px;
+            color: white; }
+        div.wrapper > footer div.social-media > div.icons {
+          margin-left: 45px;
+          margin-top: 45px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer div.social-media > div.icons > i {
+            color: white;
+            margin-left: 21px;
+            font-size: 23px; }
+      div.wrapper > footer > div.footere {
+        display: inline-block;
+        vertical-align: top;
+        width: 63%;
+        margin-left: 8%; }
+        div.wrapper > footer > div.footere > div.product {
+          margin-top: 75px;
+          margin-left: 2%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.product > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.product > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.product > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.product > ul > li > a {
+                color: white;
+                font-size: 100%; }
+                div.wrapper > footer > div.footere > div.product > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Company {
+          margin-top: 75px;
+          margin-left: 0%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Company > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Company > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Company > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Company > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Company > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Resources {
+          margin-top: 75px;
+          margin-left: 7%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Resources > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Resources > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Resources > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Resources > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Resources > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Policies {
+          margin: 75px auto;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Policies > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Policies > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Policies > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Policies > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Policies > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+      div.wrapper > footer div.sing-in {
+        width: 90%;
+        height: 73.33;
+        margin-top: 40px;
+        margin-left: 60px;
+        padding-top: 30px;
+        border-top: 1px solid white; }
+        div.wrapper > footer div.sing-in > a:nth-of-type(1) {
+          color: white;
+          background-color: #5865f2;
+          padding: 9px 13px;
+          border-radius: 50px;
+          margin-top: 0;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 78%;
+          font-size: 13px; }
+          div.wrapper > footer div.sing-in > a:nth-of-type(1):hover {
+            background-color: #6b81cf; }
+        div.wrapper > footer div.sing-in a:nth-of-type(2) {
+          display: none; } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  @keyframes robot {
+    0% {
+      left: 20%;
+      top: 350px; }
+    100% {
+      left: 20%;
+      top: 355px; } }
+  @keyframes hat {
+    0% {
+      transform: skewx(10deg); }
+    50% {
+      transform: skewx(0deg); }
+    100% {
+      transform: skewx(20deg); } }
+  @keyframes trophy {
+    0% {
+      top: 55px;
+      transform: rotatez(-45deg);
+      left: 330px; }
+    50% {
+      left: 335px;
+      top: 60px; }
+    100% {
+      transform: rotateZ(3deg);
+      left: 340px;
+      top: 50px; } }
+  @keyframes taj {
+    0% {
+      transform: rotatez(0deg); }
+    50% {
+      margin-top: 5px; }
+    100% {
+      transform: rotatez(20deg);
+      margin-top: 8px; } }
+  @keyframes potion {
+    0% {
+      transform: rotatez(-50deg); }
+    50% {
+      left: 8px; }
+    100% {
+      transform: rotatez(50deg); } }
+  @keyframes turnip {
+    0% {
+      left: 2px; }
+    50% {
+      left: 3px; }
+    100% {
+      left: 4px;
+      transform: rotatez(8deg); } }
+  @keyframes setare {
+    0% {
+      left: 1px;
+      top: 2px; }
+    50% {
+      left: 4px;
+      transform: rotatez(20deg);
+      top: 5px; }
+    100% {
+      left: 8px;
+      top: 10px;
+      transform: rotatez(25deg); } }
+  @keyframes star1 {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 100%; } }
+  div.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    opacity: 0.99; }
+    div.wrapper > div.menu {
+      width: 100%;
+      height: 80px;
+      display: inline-block;
+      vertical-align: top; }
+      div.wrapper > div.menu > div.logo {
+        display: inline-block;
+        vertical-align: top; }
+        div.wrapper > div.menu > div.logo > img {
+          margin-left: 62px;
+          margin-top: 22px;
+          display: inline-block;
+          vertical-align: top; }
+      div.wrapper > div.menu div.main-menu {
+        display: none; }
+      div.wrapper > div.menu > div.adidas {
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 69.3%; }
+      div.wrapper > div.menu > div.login {
+        display: none; }
+    div.wrapper > div.page1 {
+      width: 100%;
+      height: 679px; }
+      div.wrapper > div.page1 > div.cheshmak > img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        animation-name: star1;
+        animation-duration: 1500ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.star0 > img {
+        width: 733px;
+        height: 423px;
+        top: 0;
+        z-index: -1;
+        position: absolute; }
+      div.wrapper > div.page1 > div.manitors > div.manitorbi > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.manitor > img {
+        width: 600px;
+        height: 401px;
+        margin-left: 17%;
+        margin-top: 5%; }
+      div.wrapper > div.page1 > div.manitors > div.robot > img {
+        width: 40px;
+        height: 44.89px;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 13%;
+        animation-name: robot;
+        animation-duration: 1000ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.manitors > div.abi > img {
+        width: 126px;
+        height: 98.74px;
+        left: 41%;
+        top: 428px;
+        position: absolute; }
+      div.wrapper > div.page1 > div.manitors > div.hat > img {
+        width: 126px;
+        height: 23px;
+        position: absolute;
+        vertical-align: top;
+        left: 41%;
+        top: 405px;
+        animation-name: hat;
+        animation-duration: 2500ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.text {
+        display: none; }
+      div.wrapper > div.page1 > div.ntext > p:nth-of-type(1) {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 10%; }
+      div.wrapper > div.page1 > div.ntext > p:nth-of-type(2) {
+        margin-top: 35px;
+        margin-left: 10%;
+        width: 83%;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px; }
+      div.wrapper > div.page1 > div.img1 > div.star > img {
+        top: 0px;
+        left: 50px;
+        height: 421px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page1 > div.img1 > div.trophy > img {
+        width: 57px;
+        height: 62px;
+        z-index: -1;
+        position: absolute;
+        animation-name: trophy;
+        animation-duration: 6000ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.taj {
+        top: 25px;
+        left: 160px;
+        position: absolute; }
+        div.wrapper > div.page1 > div.img1 > div.taj > img {
+          width: 128px;
+          height: 126px;
+          animation-name: taj;
+          animation-duration: 6000ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.potion {
+        position: absolute;
+        left: 10%;
+        top: 2.5%; }
+        div.wrapper > div.page1 > div.img1 > div.potion > img {
+          width: 48px;
+          height: 58px;
+          animation-name: potion;
+          animation-duration: 6500ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate; }
+      div.wrapper > div.page1 > div.img1 > div.turnip {
+        position: absolute;
+        top: 1%;
+        left: 74%;
+        z-index: -1; }
+        div.wrapper > div.page1 > div.img1 > div.turnip > img {
+          width: 60px;
+          height: 70px;
+          animation-name: turnip;
+          animation-duration: 1500ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          filter: blur(3px); }
+      div.wrapper > div.page1 > div.img1 > div.setare {
+        position: absolute;
+        left: 80%;
+        top: 2.5%; }
+        div.wrapper > div.page1 > div.img1 > div.setare > img {
+          width: 45px;
+          height: 50px;
+          animation-name: setare;
+          animation-duration: 6000ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          animation-direction: alternate; }
+      div.wrapper > div.page1 > div.download {
+        margin-top: 80px;
+        margin-left: 17%; }
+        div.wrapper > div.page1 > div.download > div.downloads {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1) {
+            color: black;
+            background-color: white;
+            padding: 18px;
+            border-radius: 30px;
+            font-size: 19px;
+            padding-right: 30px;
+            transition: 300ms; }
+            div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1):hover {
+              color: #5864ef; }
+            div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1) > i {
+              margin-right: 10px;
+              padding-left: 20px; }
+          div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(2) {
+            display: none; }
+        div.wrapper > div.page1 > div.download > div.open {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page1 > div.download > div.open > a {
+            color: #ffffff;
+            background-color: #171cb9;
+            padding: 18px;
+            border-radius: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: 19px;
+            margin-left: 20px; }
+    div.wrapper > div.page2 {
+      margin-top: 250px;
+      width: 100%;
+      height: 611.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page2 > div.chat {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page2 > div.chat > div.gif > img {
+          width: 105px;
+          height: 67px;
+          position: absolute;
+          transform: translatey(-75px);
+          margin-left: 65%;
+          z-index: -10; }
+        div.wrapper > div.page2 > div.chat > div.text1 {
+          width: auto;
+          display: inline-block;
+          margin-top: 9%;
+          margin-left: 2%; }
+          div.wrapper > div.page2 > div.chat > div.text1 > p:nth-of-type(1) {
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page2 > div.chat > div.text1 p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page2 > div.chat > div.text1n {
+          display: none; }
+        div.wrapper > div.page2 > div.chat > div.vid {
+          width: 58%;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 5%; }
+          div.wrapper > div.page2 > div.chat > div.vid > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page2 div.egg > img {
+        top: 300px;
+        left: -180px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page2 div.star2 > img {
+        width: 100%;
+        z-index: -1;
+        position: absolute; }
+    div.wrapper > div.page3 {
+      width: 100%;
+      height: 611.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page3 > div.stream {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page3 > div.stream > div.stream-text {
+          width: auto;
+          display: inline-block;
+          margin-top: 10%;
+          margin-left: 2.9%; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 25px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(2) {
+            color: white;
+            margin-top: 10px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 25px; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(3) {
+            display: none; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(4) {
+            display: none; }
+        div.wrapper > div.page3 > div.stream > div.vid2 {
+          width: 54%;
+          margin-top: 8%;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 6.5%; }
+          div.wrapper > div.page3 > div.stream > div.vid2 > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page3 > div.javaher img {
+        width: 224px;
+        height: 224px;
+        position: absolute;
+        left: 110px;
+        top: 600px; }
+      div.wrapper > div.page3 > div.star3 > img {
+        top: 200px;
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.page4 {
+      width: 100%;
+      height: 611.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page4 > div.main-chat {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page4 > div.main-chat > div.textt {
+          width: auto;
+          display: inline-block;
+          margin-top: 10%;
+          margin-left: 1.8%; }
+          div.wrapper > div.page4 > div.main-chat > div.textt > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page4 > div.main-chat > div.textt p:nth-of-type(2) {
+            color: white;
+            margin-top: 15px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page4 > div.main-chat > div.texttn {
+          display: none; }
+        div.wrapper > div.page4 > div.main-chat > div.vidd {
+          width: 58%;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 5%; }
+          div.wrapper > div.page4 > div.main-chat > div.vidd > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+        div.wrapper > div.page4 > div.main-chat > div.box {
+          transform: translatey(-103px);
+          margin-left: 68.5%;
+          position: absolute;
+          background-color: rgba(92, 98, 117, 0); }
+          div.wrapper > div.page4 > div.main-chat > div.box > img {
+            width: 176px;
+            height: 189px; }
+      div.wrapper > div.page4 > div.bat {
+        margin-top: 3%; }
+        div.wrapper > div.page4 > div.bat > img {
+          width: 134px;
+          height: 134px;
+          margin-left: 73%; }
+      div.wrapper > div.page4 > div.star4 > img {
+        width: 100%;
+        position: absolute;
+        top: 615px;
+        z-index: -1; }
+    div.wrapper > div.banner {
+      width: 100%;
+      height: 140px;
+      background-image: linear-gradient(180deg, #4255ff, #6085ff);
+      display: flex;
+      align-items: center; }
+      div.wrapper > div.banner > ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px; }
+        div.wrapper > div.banner > ul > li {
+          font-size: 43px;
+          color: white;
+          font-weight: 800; }
+    div.wrapper > div.page5 {
+      width: 100%;
+      height: 671.06px;
+      padding-top: 10px;
+      margin-top: 145px;
+      position: relative; }
+      div.wrapper > div.page5 > div.call {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 50px; }
+        div.wrapper > div.page5 > div.call > div.call-text {
+          width: auto;
+          display: inline-block;
+          margin-top: 10%;
+          margin-left: 2.9%; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 25px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(2) {
+            color: snow;
+            margin-top: 10px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(3) {
+            display: none; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(4) {
+            display: none; }
+        div.wrapper > div.page5 > div.call > div.vidc {
+          width: 55%;
+          margin-top: 5%;
+          margin-left: 1.8%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page5 > div.call > div.vidc > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page5 > div.coin img {
+        width: 139px;
+        height: 139px;
+        position: absolute;
+        top: 550px;
+        left: 100px; }
+      div.wrapper > div.page5 div.star5 img {
+        width: 100%;
+        position: absolute;
+        top: 450px;
+        z-index: -1; }
+    div.wrapper > div.page6 {
+      width: 100%;
+      height: 480.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page6 > div.share-screen {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page6 > div.share-screen > div.img {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(1) {
+            width: 107px;
+            height: 75px;
+            position: absolute;
+            transform: translatey(-80px);
+            margin-left: 57%; }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(2) {
+            width: 111px;
+            height: 171px;
+            position: absolute;
+            transform: translatey(-90px);
+            margin-left: 68%;
+            z-index: -1; }
+        div.wrapper > div.page6 > div.share-screen > div.text-share {
+          width: auto;
+          display: inline-block;
+          margin-top: 9%;
+          margin-left: 1%; }
+          div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 25px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(2) {
+            color: white;
+            margin-top: 15px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page6 > div.share-screen > div.text-sharen {
+          display: none; }
+        div.wrapper > div.page6 > div.share-screen > div.video-share {
+          width: 58%;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 5%; }
+          div.wrapper > div.page6 > div.share-screen > div.video-share > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page6 div.pen img {
+        width: 96px;
+        height: 199.23;
+        position: absolute;
+        top: 550px;
+        left: 650px; }
+      div.wrapper > div.page6 div.star6 > img {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 200px; }
+    div.wrapper > div.page7 {
+      width: 100%;
+      height: 550.06px;
+      padding-top: 10px;
+      margin-top: 145px;
+      position: relative; }
+      div.wrapper > div.page7 > div.format {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page7 > div.format > div.format-text {
+          width: auto;
+          display: inline-block;
+          margin-top: 9%;
+          margin-left: 1%; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 25px;
+            font-weight: 900;
+            line-height: 35px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(2) {
+            color: white;
+            margin-top: 15px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(3) {
+            display: none; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(4) {
+            display: none; }
+        div.wrapper > div.page7 > div.format > div.vidf {
+          width: 58%;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 5%; }
+          div.wrapper > div.page7 > div.format > div.vidf > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page7 div.cube img {
+        width: 224px;
+        height: 224px;
+        position: absolute;
+        top: 340px;
+        left: 130px;
+        z-index: -1; }
+      div.wrapper > div.page7 div.star7 img {
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.download-link {
+      margin-top: 100px; }
+      div.wrapper > div.download-link > p {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        font-weight: 900;
+        line-height: 50px; }
+      div.wrapper > div.download-link > a {
+        color: white;
+        background-color: #5865f2;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: 19px;
+        padding-right: 50px;
+        margin-left: 35%; }
+        div.wrapper > div.download-link > a > i {
+          margin-right: 10px;
+          padding-left: 25px;
+          margin-top: 65px; }
+    div.wrapper > div.discord {
+      margin-top: 50px; }
+      div.wrapper > div.discord > img:nth-of-type(1) {
+        width: 100%;
+        height: 250px; }
+      div.wrapper > div.discord > img:nth-of-type(2) {
+        width: 90px;
+        height: 115px;
+        position: absolute;
+        left: 40%;
+        margin-top: 135px; }
+      div.wrapper > div.discord > img:nth-of-type(3) {
+        width: 41px;
+        height: 28px;
+        position: absolute;
+        left: 44%;
+        margin-top: 100px; }
+      div.wrapper > div.discord > img:nth-of-type(4) {
+        width: 51px;
+        height: 37px;
+        position: absolute;
+        left: 76.5%;
+        margin-top: 55px; }
+      div.wrapper > div.discord > img:nth-of-type(5) {
+        width: 34px;
+        height: 20px;
+        position: absolute;
+        left: 77.8%;
+        margin-top: 100px; }
+    div.wrapper > footer {
+      width: 100%;
+      height: 100%;
+      background-color: #4a468a;
+      border-top: 5px solid #5e54a1; }
+      div.wrapper > footer div.social-media {
+        display: inline-block; }
+        div.wrapper > footer div.social-media > div.lan {
+          width: 121px;
+          margin-left: 64px;
+          margin-top: 99px; }
+          div.wrapper > footer div.social-media > div.lan > img {
+            width: 24px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: top; }
+          div.wrapper > footer div.social-media > div.lan > p {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14px;
+            color: white; }
+        div.wrapper > footer div.social-media > div.icons {
+          margin-left: 45px;
+          margin-top: 45px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer div.social-media > div.icons > i {
+            color: white;
+            margin-left: 21px;
+            font-size: 23px; }
+      div.wrapper > footer > div.footere {
+        display: inline-block;
+        vertical-align: top;
+        width: 44.5%;
+        margin-left: 15%; }
+        div.wrapper > footer > div.footere > div.product {
+          margin-top: 75px;
+          margin-left: 2%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.product > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.product > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.product > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.product > ul > li > a {
+                color: white;
+                font-size: 100%; }
+                div.wrapper > footer > div.footere > div.product > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Company {
+          margin-top: 75px;
+          margin-left: 5%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Company > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Company > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Company > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Company > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Company > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Resources {
+          margin-top: 75px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Resources > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Resources > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Resources > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Resources > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Resources > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Policies {
+          margin-top: 75px;
+          margin-left: 9%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Policies > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Policies > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Policies > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Policies > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Policies > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+      div.wrapper > footer div.sing-in {
+        width: 90%;
+        height: 73.33px;
+        margin-top: 40px;
+        padding-top: 30px;
+        margin-left: 50px;
+        margin-top: 80px;
+        padding-bottom: 80px;
+        border-top: 1px solid white; }
+        div.wrapper > footer div.sing-in > a:nth-of-type(1) {
+          color: white;
+          background-color: #5865f2;
+          padding: 9px 13px;
+          border-radius: 50px;
+          margin-top: 0;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 70%;
+          font-size: 13px; }
+          div.wrapper > footer div.sing-in > a:nth-of-type(1):hover {
+            background-color: #6b81cf; }
+        div.wrapper > footer div.sing-in a:nth-of-type(2) {
+          display: none; } }
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  div.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    opacity: 0.99; }
+    div.wrapper > div.menu {
+      width: 100%;
+      height: 80px;
+      display: inline-block;
+      vertical-align: top; }
+      div.wrapper > div.menu > div.logo {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 48px;
+        margin-top: 22px; }
+      div.wrapper > div.menu div.main-menu {
+        display: none; }
+      div.wrapper > div.menu > div.adidas {
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 55.8%; }
+      div.wrapper > div.menu > div.login {
+        display: none; }
+    div.wrapper > div.page1 {
+      width: 100%;
+      height: 555px; }
+      div.wrapper > div.page1 > div.star0 > img {
+        display: none; }
+      div.wrapper > div.page1 > div.cheshmak > img {
+        width: 100%;
+        position: absolute; }
+      div.wrapper > div.page1 > div.manitors > div.manitorbi > img {
+        width: 61%;
+        height: auto;
+        margin-left: 19.5%; }
+      div.wrapper > div.page1 > div.manitors > div.manitor > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.robot > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.abi > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.hat > img {
+        display: none; }
+      div.wrapper > div.page1 > div.text {
+        display: none; }
+      div.wrapper > div.page1 > div.ntext > p:nth-of-type(1) {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 35px;
+        margin-top: 20px; }
+      div.wrapper > div.page1 > div.ntext > p:nth-of-type(2) {
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 13%;
+        width: 75%;
+        color: white;
+        font-size: 15px;
+        line-height: 25px; }
+      div.wrapper > div.page1 > div.img1 > div.star > img {
+        top: 0px;
+        left: 50px;
+        height: 421px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page1 > div.img1 > div.trophy {
+        top: 30px;
+        left: 57%;
+        position: absolute; }
+        div.wrapper > div.page1 > div.img1 > div.trophy > img {
+          width: 48px;
+          height: 54px;
+          z-index: -1; }
+      div.wrapper > div.page1 > div.img1 > div.taj {
+        top: 25px;
+        left: 100px;
+        position: absolute; }
+        div.wrapper > div.page1 > div.img1 > div.taj > img {
+          width: 85px;
+          height: 86px;
+          filter: blur(2.2px); }
+      div.wrapper > div.page1 > div.img1 > div.potion {
+        position: absolute;
+        left: 70px;
+        top: 100px; }
+        div.wrapper > div.page1 > div.img1 > div.potion > img {
+          width: 40px;
+          height: 45px;
+          filter: blur(2.2px); }
+      div.wrapper > div.page1 > div.img1 > div.turnip {
+        position: absolute;
+        top: 10px;
+        left: 73%;
+        z-index: -1; }
+        div.wrapper > div.page1 > div.img1 > div.turnip > img {
+          width: 40px;
+          height: 54px;
+          filter: blur(3px); }
+      div.wrapper > div.page1 > div.img1 > div.setare {
+        position: absolute;
+        left: 85%;
+        top: 0.9%; }
+        div.wrapper > div.page1 > div.img1 > div.setare > img {
+          width: 47px;
+          height: 53px; }
+      div.wrapper > div.page1 > div.download {
+        margin-top: 50px;
+        margin-left: 30%; }
+        div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1) {
+          color: black;
+          background-color: white;
+          padding: 18px;
+          border-radius: 30px;
+          font-size: 19px;
+          padding-right: 30px;
+          transition: 300ms;
+          margin-bottom: 20%;
+          margin-left: 2%; }
+          div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1):hover {
+            color: #5864ef; }
+          div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1) > i {
+            margin-right: 10px;
+            padding-left: 20px; }
+        div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page1 > div.download > div.open {
+          margin-top: 10%; }
+          div.wrapper > div.page1 > div.download > div.open > a {
+            color: #ffffff;
+            background-color: #171cb9;
+            padding: 20px;
+            border-radius: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: 19px; }
+    div.wrapper > div.page2 {
+      margin-top: 250px;
+      width: 100%;
+      height: 1005.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page2 > div.chat {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page2 > div.chat > div.gif > img {
+          width: 105px;
+          height: 67px;
+          position: absolute;
+          transform: translatey(-75px);
+          margin-left: 60%;
+          z-index: -10; }
+        div.wrapper > div.page2 > div.chat > div.text1 > p:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page2 > div.chat > div.text1 p:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page2 > div.chat > div.text1n {
+          width: auto;
+          display: block;
+          margin-top: 9.5%;
+          margin-left: 7%; }
+          div.wrapper > div.page2 > div.chat > div.text1n > p:nth-of-type(1) {
+            width: 100%;
+            color: white;
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page2 > div.chat > div.text1n > p:nth-of-type(2) {
+            color: white;
+            width: 90%;
+            margin-top: 10px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page2 > div.chat > div.vid {
+          width: 97%;
+          margin-top: 8%;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 2%; }
+          div.wrapper > div.page2 > div.chat > div.vid > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page2 div.egg > img {
+        width: 368px;
+        height: 416px;
+        top: 660px;
+        left: -95px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page2 div.star2 > img {
+        width: 100%;
+        z-index: -1;
+        position: absolute; }
+    div.wrapper > div.page3 {
+      width: 100%;
+      height: 1040px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page3 > div.stream {
+        width: 92%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page3 > div.stream > div.stream-text {
+          width: auto;
+          display: block;
+          margin-top: 9.5%;
+          margin-left: 7%; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(1) {
+            display: none; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(2) {
+            display: none; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(3) {
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(4) {
+            color: white;
+            width: 90%;
+            margin-top: 20px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 23px; }
+        div.wrapper > div.page3 > div.stream > div.vid2 {
+          width: 97%;
+          margin-top: 8%;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 2%; }
+          div.wrapper > div.page3 > div.stream > div.vid2 > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page3 > div.javaher img {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        left: 110px;
+        top: 880px;
+        filter: blur(3px); }
+      div.wrapper > div.page3 > div.star3 > img {
+        top: 200px;
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.page4 {
+      width: 100%;
+      height: 860px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page4 > div.main-chat {
+        width: 93%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page4 > div.main-chat > div.textt > p:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page4 > div.main-chat > div.textt p:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page4 > div.main-chat div.texttn {
+          width: auto;
+          display: block;
+          margin-top: 9.5%;
+          margin-left: 7%; }
+          div.wrapper > div.page4 > div.main-chat div.texttn > p:nth-of-type(1) {
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page4 > div.main-chat div.texttn > p:nth-of-type(2) {
+            color: white;
+            width: 90%;
+            margin-top: 20px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 23px; }
+        div.wrapper > div.page4 > div.main-chat > div.vidd {
+          width: 97%;
+          margin-top: 8%;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 2%; }
+          div.wrapper > div.page4 > div.main-chat > div.vidd > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+        div.wrapper > div.page4 > div.main-chat > div.box {
+          transform: translatey(-153px);
+          margin-left: 58.5%;
+          position: absolute;
+          z-index: -1; }
+          div.wrapper > div.page4 > div.main-chat > div.box > img {
+            width: 176px;
+            height: 189px;
+            filter: blur(2px); }
+      div.wrapper > div.page4 > div.bat > img {
+        width: 134px;
+        height: 134px;
+        margin-left: 65%;
+        margin-top: 1.5%; }
+      div.wrapper > div.page4 > div.star4 > img {
+        width: 100%;
+        position: absolute;
+        top: 615px;
+        z-index: -1; }
+    div.wrapper > div.banner {
+      display: none; }
+    div.wrapper > div.page5 {
+      width: 100%;
+      height: 951.06px;
+      padding-top: 10px;
+      margin-top: 145px;
+      position: relative; }
+      div.wrapper > div.page5 > div.call {
+        width: 93%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 20px; }
+        div.wrapper > div.page5 > div.call > div.call-text {
+          width: auto;
+          display: inline-block;
+          margin-top: 10%;
+          margin-left: 6%; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(1) {
+            display: none; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(2) {
+            display: none; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(3) {
+            width: 100%;
+            color: white;
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(4) {
+            color: white;
+            width: 90%;
+            margin-top: 10px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page5 > div.call > div.vidc {
+          width: 99%;
+          margin-top: 5%;
+          margin-left: 0.5%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page5 > div.call > div.vidc > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page5 > div.coin img {
+        width: 139px;
+        height: 139px;
+        position: absolute;
+        top: 1650px; }
+      div.wrapper > div.page5 div.star5 img {
+        width: 100%;
+        position: absolute;
+        top: 450px;
+        z-index: -1; }
+    div.wrapper > div.page6 {
+      width: 100%;
+      height: 770.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page6 > div.share-screen {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page6 > div.share-screen > div.img {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(1) {
+            width: 107px;
+            height: 75px;
+            position: absolute;
+            transform: translatey(-80px);
+            margin-left: 57%; }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(2) {
+            width: 111px;
+            height: 171px;
+            position: absolute;
+            transform: translatey(-90px);
+            margin-left: 68%;
+            z-index: -1; }
+        div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page6 > div.share-screen > div.text-sharen {
+          width: auto;
+          display: block;
+          margin-top: 9.5%;
+          margin-left: 7%; }
+          div.wrapper > div.page6 > div.share-screen > div.text-sharen > p:nth-of-type(1) {
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page6 > div.share-screen > div.text-sharen > p:nth-of-type(2) {
+            color: white;
+            width: 90%;
+            margin-top: 20px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 23px; }
+        div.wrapper > div.page6 > div.share-screen > div.video-share {
+          width: 97%;
+          margin-top: 8%;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 2%; }
+          div.wrapper > div.page6 > div.share-screen > div.video-share > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page6 div.pen img {
+        width: 96px;
+        height: 199.23;
+        position: absolute;
+        top: 700px;
+        left: 80%; }
+      div.wrapper > div.page6 div.star6 > img {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 200px; }
+    div.wrapper > div.page7 {
+      width: 100%;
+      height: 880.06px;
+      padding-top: 10px;
+      margin-top: 145px;
+      position: relative; }
+      div.wrapper > div.page7 > div.format {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page7 > div.format > div.format-text {
+          width: auto;
+          display: inline-block;
+          margin-top: 8%;
+          margin-left: 7%; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(1) {
+            display: none; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(2) {
+            display: none; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(3) {
+            width: 100%;
+            color: white;
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(4) {
+            color: white;
+            width: 90%;
+            margin-top: 10px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page7 > div.format > div.vidf {
+          width: 99%;
+          margin-top: 5%;
+          margin-left: 0.5%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page7 > div.format > div.vidf > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page7 div.cube img {
+        width: 143px;
+        height: 143px;
+        position: absolute;
+        top: 780px;
+        left: 90px;
+        z-index: -1; }
+      div.wrapper > div.page7 div.star7 img {
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.download-link {
+      margin-top: 100px; }
+      div.wrapper > div.download-link > p {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        margin-top: 140px;
+        font-weight: 900;
+        line-height: 40px; }
+      div.wrapper > div.download-link > a {
+        color: white;
+        background-color: #5865f2;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: 19px;
+        padding-right: 50px;
+        margin-left: 30%; }
+        div.wrapper > div.download-link > a > i {
+          margin-right: 10px;
+          padding-left: 25px;
+          margin-top: 55px; }
+    div.wrapper > div.discord {
+      margin-top: 50px; }
+      div.wrapper > div.discord > img:nth-of-type(1) {
+        width: 100%;
+        height: 200px; }
+      div.wrapper > div.discord > img:nth-of-type(2) {
+        width: 74px;
+        height: 95px;
+        position: absolute;
+        left: 42%;
+        margin-top: 105px; }
+      div.wrapper > div.discord > img:nth-of-type(3) {
+        width: 33px;
+        height: 22px;
+        position: absolute;
+        left: 45.5%;
+        margin-top: 78px; }
+      div.wrapper > div.discord > img:nth-of-type(4) {
+        width: 43px;
+        height: 31px;
+        position: absolute;
+        left: 77%;
+        margin-top: 55px; }
+      div.wrapper > div.discord > img:nth-of-type(5) {
+        width: 28px;
+        height: 17px;
+        position: absolute;
+        left: 78%;
+        margin-top: 88px; }
+    div.wrapper > footer {
+      width: 100%;
+      height: 100%;
+      background-color: #4a468a;
+      border-top: 5px solid #5e54a1; }
+      div.wrapper > footer div.social-media {
+        display: block; }
+        div.wrapper > footer div.social-media > div.lan {
+          width: 121px;
+          margin-left: 44px;
+          margin-top: 99px; }
+          div.wrapper > footer div.social-media > div.lan > img {
+            width: 24px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: top; }
+          div.wrapper > footer div.social-media > div.lan > p {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14px;
+            color: white; }
+        div.wrapper > footer div.social-media > div.icons {
+          margin-left: 15px;
+          margin-top: 45px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer div.social-media > div.icons > i {
+            color: white;
+            margin-left: 21px;
+            font-size: 23px; }
+      div.wrapper > footer > div.footere {
+        display: inline-block;
+        vertical-align: top;
+        width: 72.5%;
+        margin-left: 4.5%; }
+        div.wrapper > footer > div.footere > div.product {
+          margin-top: 45px;
+          margin-left: 2%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.product > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.product > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.product > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.product > ul > li > a {
+                color: white;
+                font-size: 100%; }
+                div.wrapper > footer > div.footere > div.product > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Company {
+          margin-top: 45px;
+          margin-left: 29%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Company > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Company > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Company > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Company > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Company > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Resources {
+          margin-top: 75px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Resources > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Resources > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Resources > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Resources > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Resources > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Policies {
+          margin-top: 75px;
+          margin-left: 29%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Policies > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Policies > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Policies > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Policies > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Policies > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+      div.wrapper > footer div.sing-in {
+        width: 90%;
+        height: 73.33px;
+        margin-top: 40px;
+        padding-top: 30px;
+        margin-left: 50px;
+        margin-top: 80px;
+        padding-bottom: 80px;
+        border-top: 1px solid white; }
+        div.wrapper > footer div.sing-in > a:nth-of-type(1) {
+          display: none; }
+        div.wrapper > footer div.sing-in > a:nth-of-type(2) {
+          color: white;
+          background-color: #5865f2;
+          padding: 9px 13px;
+          border-radius: 50px;
+          margin-top: 0;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 58%;
+          font-size: 13px;
+          font-weight: 900; }
+          div.wrapper > footer div.sing-in > a:nth-of-type(2):hover {
+            background-color: #6b81cf; } }
+
+@media screen and (max-width: 540px) {
+  div.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    opacity: 0.99;
+    overflow: hidden; }
+    div.wrapper > div.menu {
+      width: 100%;
+      height: 80px;
+      display: inline-block;
+      vertical-align: top; }
+      div.wrapper > div.menu > div.logo {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 35px;
+        margin-top: 22px;
+        background-color: #676f8a00; }
+      div.wrapper > div.menu div.main-menu {
+        display: none; }
+      div.wrapper > div.menu > div.adidas {
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 53%; }
+      div.wrapper > div.menu > div.login {
+        display: none; }
+    div.wrapper > div.page1 {
+      width: 100%;
+      height: 555px; }
+      div.wrapper > div.page1 > div.star0 > img {
+        display: none; }
+      div.wrapper > div.page1 > div.cheshmak > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.manitorbi > img {
+        width: 61%;
+        height: auto;
+        margin-left: 19.5%; }
+      div.wrapper > div.page1 > div.manitors > div.manitor > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.robot > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.abi > img {
+        display: none; }
+      div.wrapper > div.page1 > div.manitors > div.hat > img {
+        display: none; }
+      div.wrapper > div.page1 > div.text {
+        display: none; }
+      div.wrapper > div.page1 > div.ntext > p:nth-of-type(1) {
+        color: white;
+        text-align: center;
+        vertical-align: top;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 35px;
+        margin-top: 20px;
+        margin-left: 14%;
+        width: 330px; }
+      div.wrapper > div.page1 > div.ntext > p:nth-of-type(2) {
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 13%;
+        width: 74%;
+        color: white;
+        font-size: 15px;
+        line-height: 25px; }
+      div.wrapper > div.page1 > div.img1 > div.star > img {
+        top: 0px;
+        left: 50px;
+        height: 421px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page1 > div.img1 > div.trophy {
+        top: 30px;
+        left: 36%;
+        position: absolute;
+        background-color: #49506700; }
+        div.wrapper > div.page1 > div.img1 > div.trophy > img {
+          width: 48px;
+          height: 54px;
+          z-index: -1; }
+      div.wrapper > div.page1 > div.img1 > div.taj {
+        top: 25px;
+        left: 80px;
+        position: absolute; }
+        div.wrapper > div.page1 > div.img1 > div.taj > img {
+          width: 85px;
+          height: 86px;
+          filter: blur(2.2px); }
+      div.wrapper > div.page1 > div.img1 > div.potion {
+        position: absolute;
+        left: 50px;
+        top: 85px; }
+        div.wrapper > div.page1 > div.img1 > div.potion > img {
+          width: 40px;
+          height: 45px;
+          filter: blur(2.2px); }
+      div.wrapper > div.page1 > div.img1 > div.turnip {
+        position: absolute;
+        top: 15px;
+        left: 59%;
+        z-index: -1; }
+        div.wrapper > div.page1 > div.img1 > div.turnip > img {
+          width: 40px;
+          height: 54px;
+          filter: blur(3px); }
+      div.wrapper > div.page1 > div.img1 > div.setare {
+        position: absolute;
+        left: 78.5%;
+        top: 0.7%; }
+        div.wrapper > div.page1 > div.img1 > div.setare > img {
+          width: 47px;
+          height: 53px; }
+      div.wrapper > div.page1 > div.download {
+        margin-top: 50px;
+        margin-left: 10%; }
+        div.wrapper > div.page1 > div.download > div.downloads a:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page1 > div.download > div.downloads > a:nth-of-type(2) {
+          color: black;
+          background-color: white;
+          padding: 18px;
+          border-radius: 30px;
+          font-size: 19px;
+          padding-right: 30px;
+          transition: 300ms;
+          margin-bottom: 20%;
+          margin-left: 2%; }
+          div.wrapper > div.page1 > div.download > div.downloads > a:nth-of-type(2):hover {
+            color: #5864ef; }
+          div.wrapper > div.page1 > div.download > div.downloads > a:nth-of-type(2) > i {
+            margin-right: 10px;
+            padding-left: 20px; }
+        div.wrapper > div.page1 > div.download > div.open {
+          display: none; }
+    div.wrapper > div.page2 {
+      margin-top: 100px;
+      width: 100%;
+      height: 890.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page2 > div.chat {
+        width: 87%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page2 > div.chat > div.gif > img {
+          width: 105px;
+          height: 67px;
+          position: absolute;
+          transform: translatey(-75px);
+          margin-left: 38%;
+          z-index: -10; }
+        div.wrapper > div.page2 > div.chat > div.text1 > p:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page2 > div.chat > div.text1 p:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page2 > div.chat > div.text1n {
+          width: auto;
+          display: block;
+          margin-top: 9%;
+          margin-left: 11%; }
+          div.wrapper > div.page2 > div.chat > div.text1n > p:nth-of-type(1) {
+            width: 80%;
+            color: white;
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page2 > div.chat > div.text1n > p:nth-of-type(2) {
+            color: white;
+            width: 85%;
+            margin-top: 15px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 25px; }
+        div.wrapper > div.page2 > div.chat > div.vid {
+          width: 97%;
+          margin-top: 8%;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 2%; }
+          div.wrapper > div.page2 > div.chat > div.vid > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page2 div.egg > img {
+        width: 368px;
+        height: 416px;
+        top: 660px;
+        left: -95px;
+        position: absolute;
+        z-index: -1; }
+      div.wrapper > div.page2 div.star2 > img {
+        width: 100%;
+        z-index: -1;
+        position: absolute; }
+    div.wrapper > div.page3 {
+      width: 100%;
+      height: 890.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page3 > div.stream {
+        width: 89%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page3 > div.stream > div.stream-text {
+          width: auto;
+          display: block;
+          margin-top: 11%;
+          margin-left: 14%; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(1) {
+            display: none; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(2) {
+            display: none; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(3) {
+            color: white;
+            font-size: 30px;
+            width: 80%;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page3 > div.stream > div.stream-text > p:nth-of-type(4) {
+            color: white;
+            width: 80%;
+            margin-top: 20px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 23px; }
+        div.wrapper > div.page3 > div.stream > div.vid2 {
+          width: 97%;
+          margin-top: 8%;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 2%; }
+          div.wrapper > div.page3 > div.stream > div.vid2 > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page3 > div.javaher img {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        left: 110px;
+        top: 880px;
+        filter: blur(3px); }
+      div.wrapper > div.page3 > div.star3 > img {
+        top: 200px;
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.page4 {
+      width: 100%;
+      height: 730px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page4 > div.main-chat {
+        width: 93%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page4 > div.main-chat > div.textt > p:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page4 > div.main-chat > div.textt p:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page4 > div.main-chat div.texttn {
+          width: auto;
+          display: block;
+          margin-top: 9.5%;
+          margin-left: 12%;
+          width: 80%; }
+          div.wrapper > div.page4 > div.main-chat div.texttn > p:nth-of-type(1) {
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page4 > div.main-chat div.texttn > p:nth-of-type(2) {
+            color: white;
+            width: 90%;
+            margin-top: 20px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 23px; }
+        div.wrapper > div.page4 > div.main-chat > div.vidd {
+          width: 97%;
+          margin-top: 8%;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 2%; }
+          div.wrapper > div.page4 > div.main-chat > div.vidd > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+        div.wrapper > div.page4 > div.main-chat > div.box {
+          transform: translatey(-153px);
+          margin-left: 52.5%;
+          position: absolute;
+          z-index: -1; }
+          div.wrapper > div.page4 > div.main-chat > div.box > img {
+            width: 176px;
+            height: 189px;
+            filter: blur(2px); }
+      div.wrapper > div.page4 > div.bat > img {
+        width: 134px;
+        height: 134px;
+        margin-left: 65%;
+        margin-top: 1.5%; }
+      div.wrapper > div.page4 > div.star4 > img {
+        width: 100%;
+        position: absolute;
+        top: 615px;
+        z-index: -1; }
+    div.wrapper > div.banner {
+      display: none; }
+    div.wrapper > div.page5 {
+      width: 100%;
+      height: 850.06px;
+      padding-top: 10px;
+      margin-top: 145px;
+      position: relative; }
+      div.wrapper > div.page5 > div.call {
+        width: 93%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 20px; }
+        div.wrapper > div.page5 > div.call > div.call-text {
+          width: auto;
+          display: inline-block;
+          margin-top: 10%;
+          margin-left: 15%;
+          width: 80%; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(1) {
+            display: none; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(2) {
+            display: none; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(3) {
+            width: 100%;
+            color: white;
+            font-size: 29px;
+            font-weight: 900;
+            line-height: 30px;
+            width: 80%; }
+          div.wrapper > div.page5 > div.call > div.call-text > p:nth-of-type(4) {
+            color: white;
+            width: 90%;
+            margin-top: 13px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page5 > div.call > div.vidc {
+          width: 99%;
+          margin-top: 5%;
+          margin-left: 0.5%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page5 > div.call > div.vidc > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page5 > div.coin img {
+        width: 139px;
+        height: 139px;
+        position: absolute;
+        top: 1650px; }
+      div.wrapper > div.page5 div.star5 img {
+        width: 100%;
+        position: absolute;
+        top: 450px;
+        z-index: -1; }
+    div.wrapper > div.page6 {
+      width: 100%;
+      height: 770.06px;
+      padding-top: 10px;
+      position: relative; }
+      div.wrapper > div.page6 > div.share-screen {
+        width: 87%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 12px 12px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page6 > div.share-screen > div.img {
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(1) {
+            width: 90px;
+            height: 64;
+            position: absolute;
+            transform: translatey(-70px);
+            margin-left: 39.5%; }
+          div.wrapper > div.page6 > div.share-screen > div.img > img:nth-of-type(2) {
+            width: 98px;
+            height: 151px;
+            position: absolute;
+            transform: translatey(-82px);
+            margin-left: 54%;
+            z-index: -1; }
+        div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(1) {
+          display: none; }
+        div.wrapper > div.page6 > div.share-screen > div.text-share > p:nth-of-type(2) {
+          display: none; }
+        div.wrapper > div.page6 > div.share-screen > div.text-sharen {
+          width: auto;
+          display: block;
+          margin-top: 7%;
+          margin-left: 10%; }
+          div.wrapper > div.page6 > div.share-screen > div.text-sharen > p:nth-of-type(1) {
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page6 > div.share-screen > div.text-sharen > p:nth-of-type(2) {
+            color: white;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 23px; }
+        div.wrapper > div.page6 > div.share-screen > div.video-share {
+          width: 97%;
+          margin-top: 8%;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 2%; }
+          div.wrapper > div.page6 > div.share-screen > div.video-share > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page6 div.pen img {
+        width: 96px;
+        height: 199.23;
+        position: absolute;
+        top: 700px;
+        left: 78%; }
+      div.wrapper > div.page6 div.star6 > img {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 200px; }
+    div.wrapper > div.page7 {
+      width: 100%;
+      height: 720.06px;
+      padding-top: 10px;
+      margin-top: 145px;
+      position: relative; }
+      div.wrapper > div.page7 > div.format {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff5a;
+        border-radius: 50px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-width: 3.5px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.116);
+        padding-bottom: 30px; }
+        div.wrapper > div.page7 > div.format > div.format-text {
+          width: auto;
+          display: inline-block;
+          margin-top: 8%;
+          margin-left: 7%; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(1) {
+            display: none; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(2) {
+            display: none; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(3) {
+            width: 100%;
+            color: white;
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 30px; }
+          div.wrapper > div.page7 > div.format > div.format-text > p:nth-of-type(4) {
+            color: white;
+            width: 90%;
+            margin-top: 10px;
+            font-size: 15px;
+            word-spacing: 2px;
+            line-height: 28px; }
+        div.wrapper > div.page7 > div.format > div.vidf {
+          width: 99%;
+          margin-top: 5%;
+          margin-left: 0.5%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > div.page7 > div.format > div.vidf > video {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 30px; }
+      div.wrapper > div.page7 div.cube img {
+        width: 143px;
+        height: 143px;
+        position: absolute;
+        top: 780px;
+        left: 90px;
+        z-index: -1; }
+      div.wrapper > div.page7 div.star7 img {
+        width: 100%;
+        position: absolute;
+        z-index: -1; }
+    div.wrapper > div.download-link {
+      margin-top: 100px; }
+      div.wrapper > div.download-link > p {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        margin-top: 140px;
+        font-weight: 900;
+        line-height: 40px; }
+      div.wrapper > div.download-link > a {
+        color: white;
+        background-color: #5865f2;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: 19px;
+        padding-right: 50px;
+        margin-left: 20%; }
+        div.wrapper > div.download-link > a > i {
+          margin-right: 10px;
+          padding-left: 25px;
+          margin-top: 55px; }
+    div.wrapper > div.discord {
+      margin-top: 85px; }
+      div.wrapper > div.discord > img:nth-of-type(1) {
+        width: 100%;
+        height: 120px; }
+      div.wrapper > div.discord > img:nth-of-type(2) {
+        width: 48px;
+        height: 65px;
+        position: absolute;
+        left: 42%;
+        margin-top: 60px; }
+      div.wrapper > div.discord > img:nth-of-type(3) {
+        width: 22px;
+        height: 15px;
+        position: absolute;
+        left: 45.5%;
+        margin-top: 40px; }
+      div.wrapper > div.discord > img:nth-of-type(4) {
+        width: 28px;
+        height: 20px;
+        position: absolute;
+        left: 77%;
+        margin-top: 28px; }
+      div.wrapper > div.discord > img:nth-of-type(5) {
+        width: 19px;
+        height: 11px;
+        position: absolute;
+        left: 78%;
+        margin-top: 50px; }
+    div.wrapper > footer {
+      width: 100%;
+      height: 100%;
+      background-color: #4a4588;
+      border-top: 5px solid #5e54a1; }
+      div.wrapper > footer div.social-media {
+        display: block; }
+        div.wrapper > footer div.social-media > div.lan {
+          width: 121px;
+          margin-left: 32px;
+          margin-top: 99px; }
+          div.wrapper > footer div.social-media > div.lan > img {
+            width: 24px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: top; }
+          div.wrapper > footer div.social-media > div.lan > p {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14px;
+            color: white; }
+        div.wrapper > footer div.social-media > div.icons {
+          margin-left: 15px;
+          margin-top: 45px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer div.social-media > div.icons > i {
+            color: white;
+            margin-left: 21px;
+            font-size: 23px; }
+      div.wrapper > footer > div.footere {
+        display: inline-block;
+        vertical-align: top;
+        width: 78%;
+        margin-left: 4.5%; }
+        div.wrapper > footer > div.footere > div.product {
+          margin-top: 45px;
+          margin-left: 2%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.product > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.product > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.product > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.product > ul > li > a {
+                color: white;
+                font-size: 100%; }
+                div.wrapper > footer > div.footere > div.product > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Company {
+          margin-top: 45px;
+          margin-left: 18%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Company > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Company > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Company > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Company > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Company > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Resources {
+          margin-top: 50px;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Resources > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Resources > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Resources > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Resources > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Resources > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+        div.wrapper > footer > div.footere > div.Policies {
+          margin-top: 50px;
+          margin-left: 19%;
+          display: inline-block;
+          vertical-align: top; }
+          div.wrapper > footer > div.footere > div.Policies > p {
+            color: white;
+            padding-bottom: 15px; }
+          div.wrapper > footer > div.footere > div.Policies > ul {
+            width: 100%;
+            height: 100%; }
+            div.wrapper > footer > div.footere > div.Policies > ul > li {
+              margin-top: 13px; }
+              div.wrapper > footer > div.footere > div.Policies > ul > li > a {
+                color: white;
+                font-size: 15px; }
+                div.wrapper > footer > div.footere > div.Policies > ul > li > a:hover {
+                  border-bottom: 1px solid white; }
+      div.wrapper > footer div.sing-in {
+        width: 90%;
+        height: 80.33px;
+        padding-top: 30px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding-bottom: 80px;
+        border-top: 1px solid white; }
+        div.wrapper > footer div.sing-in > a:nth-of-type(1) {
+          display: none; }
+        div.wrapper > footer div.sing-in > a:nth-of-type(2) {
+          color: white;
+          background-color: #5865f2;
+          padding: 9px 13px;
+          border-radius: 50px;
+          margin-top: 0;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 48%;
+          font-size: 13px;
+          font-weight: 900; }
+          div.wrapper > footer div.sing-in > a:nth-of-type(2):hover {
+            background-color: #6b81cf; } }
+
+* {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif; }

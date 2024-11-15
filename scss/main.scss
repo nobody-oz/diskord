@@ -1,0 +1,20 @@
+@import "./media";
+
+@include media(1200px);
+
+@include media(992px);
+
+@include media(768px);
+
+@include media(540px);
+
+@include media(539px);
+
+* {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}

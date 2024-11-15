@@ -1,0 +1,15 @@
+@keyframes star1 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+
+> div.cheshmak > img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  animation-name: star1;
+  animation-duration: 1500ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
